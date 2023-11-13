@@ -6,7 +6,7 @@ from data.config_reader import config
 
 app = FastAPI()
 WEBHOOK_PATH = f"/{config.bot_token.get_secret_value()}/"
-WEBHOOK_URL = f"https://c8b3-94-141-68-35.ngrok.io{WEBHOOK_PATH}"
+WEBHOOK_URL = f"https://test-bot-o2gn.onrender.com{WEBHOOK_PATH}"
 
 
 @app.on_event("startup")
